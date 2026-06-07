@@ -1,12 +1,33 @@
 @import "tailwindcss";
 
 :root {
-  --accent:   #1a1a1a;   /* 주 텍스트 / 버튼 */
-  --muted:    #6b6b6b;   /* 보조 텍스트 */
-  --border:   #e4e4e4;   /* 선 / 구분자 */
-  --bg:       #ffffff;
-  --surface:  #f5f5f5;   /* 카드 배경 */
-  --card-w:   200px;     /* 카드 너비 = 기준 여백 단위 */
+  --accent:  #1a1a1a;
+  --muted:   #6b6b6b;
+  --border:  #e4e4e4;
+  --bg:      #ffffff;
+  --surface: #f5f5f5;
+
+  /* 반응형 좌우 여백 */
+  --side-pad: 16px;
+  /* 반응형 카드 크기 */
+  --card-w: 140px;
+  --card-h: 88px;
+}
+
+@media (min-width: 640px) {
+  :root {
+    --side-pad: 40px;
+    --card-w: 160px;
+    --card-h: 96px;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --side-pad: 200px;
+    --card-w: 200px;
+    --card-h: 112px;
+  }
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -24,7 +45,7 @@ body {
 
 .row-scroll {
   display: flex;
-  gap: 10px;
+  gap: 8px;
   overflow-x: auto;
   padding-bottom: 8px;
   scroll-behavior: smooth;
