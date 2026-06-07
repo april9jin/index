@@ -1,8 +1,12 @@
 {
   "rewrites": [
     {
-      "source": "/apps/clips/:path*",
-      "destination": "https://clips-app-delta.vercel.app/apps/clips/:path*"
+      "source": "/apps/clips",
+      "destination": "https://clips-app-delta.vercel.app/"
+    },
+    {
+      "source": "/apps/clips/(.*)",
+      "destination": "https://clips-app-delta.vercel.app/$1"
     },
     {
       "source": "/(.*)",
