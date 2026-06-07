@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/apps/clips/:path*",
-      "destination": "https://clips-app-april9jin.vercel.app/apps/clips/:path*"
+      "destination": "https://clips-5p22l7veo-april9jin-gmailcoms-projects.vercel.app/apps/clips/:path*"
     },
     {
       "source": "/(.*)",
