@@ -31,7 +31,7 @@ export const categories = [
     label: 'Vibe Coding',
     items: [
       // 배포 후 link를 실제 URL로 교체 (예: 'https://clips-app.vercel.app')
-      { id: 'v1', title: 'Clips App', subtitle: 'GitHub Gist Clipboard', thumb: '/thumbs/clips.png', link: 'https://clips-app.vercel.app', color: '#6e85b0' },
+      { id: 'v1', title: 'Clips App', subtitle: 'GitHub Gist Clipboard', thumb: '/thumbs/clips.png', link: '/apps/clips', color: '#6e85b0' },
       { id: 'v2', title: 'App 2',     subtitle: 'AI Tool',               thumb: null, link: '#', color: '#6eaa96' },
       { id: 'v3', title: 'App 3',     subtitle: 'Chrome Extension',      thumb: null, link: '#', color: '#b09a6e' },
       { id: 'v4', title: 'App 4',     subtitle: 'CLI Tool',              thumb: null, link: '#', color: '#b07a7a' },
