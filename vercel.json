@@ -1,3 +1,7 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+  "rewrites": [
+    { "source": "/clips-app", "destination": "/clips-app/index.html" },
+    { "source": "/clips-app/(.*)", "destination": "/clips-app/$1" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }

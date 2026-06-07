@@ -29,7 +29,7 @@ export const categories = [
     id: 'vibe',
     label: 'Vibe Coding',
     items: [
-      { id: 'v1', title: 'Clips App', subtitle: 'GitHub Gist Clipboard', thumb: '/thumbs/clips.png', link: 'http://localhost:5173', color: '#6e85b0' },
+      { id: 'v1', title: 'Clips App', subtitle: 'GitHub Gist Clipboard', thumb: '/thumbs/clips.png', link: '/clips-app', color: '#6e85b0' },
       { id: 'v2', title: 'App 2',     subtitle: 'AI Tool',               thumb: null, link: '#', color: '#6eaa96' },
       { id: 'v3', title: 'App 3',     subtitle: 'Chrome Extension',      thumb: null, link: '#', color: '#b09a6e' },
       { id: 'v4', title: 'App 4',     subtitle: 'CLI Tool',              thumb: null, link: '#', color: '#b07a7a' },
