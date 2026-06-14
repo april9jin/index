@@ -32,7 +32,7 @@ export const categories = [
     items: [
       // 배포 후 link를 실제 URL로 교체 (예: 'https://clips-app.vercel.app')
       { id: 'v1', title: 'Clips App', subtitle: 'GitHub Gist Clipboard', thumb: '/thumbs/clips.png', link: '/apps/clips', color: '#6e85b0' },
-      { id: 'v2', title: 'App 2',     subtitle: 'AI Tool',               thumb: null, link: '#', color: '#6eaa96' },
+      { id: 'v2', title: '스마트 할일', subtitle: '자연어 할일 리마인더', thumb: '/thumbs/todo-reminder.png', link: 'https://todo-reminder-psi.vercel.app/', color: '#6eaa96' },
       { id: 'v3', title: 'App 3',     subtitle: 'Chrome Extension',      thumb: null, link: '#', color: '#b09a6e' },
       { id: 'v4', title: 'App 4',     subtitle: 'CLI Tool',              thumb: null, link: '#', color: '#b07a7a' },
     ],
